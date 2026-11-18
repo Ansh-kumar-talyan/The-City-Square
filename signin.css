@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f6f6f2;
+    color: #26372d;
+    min-height: 100vh;
+}
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 8%;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #26372d;
+    font-size: 23px;
+    font-weight: 800;
+}
+.logo-space {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #f0f1eb;
+}
+.home-link {
+    text-decoration: none;
+    color: #526258;
+    font-size: 14px;
+}
+.signin-container {
+    width: 440px;
+    margin: 55px auto;
+    padding: 38px;
+    background-color: white;
+    border-radius: 20px;
+}
+.welcome {
+    text-align: center;
+    margin-bottom: 28px;
+}
+.tag {
+    color: #d97736;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.welcome h1 {
+    font-size: 29px;
+    margin: 12px 0;
+}
+.subtitle {
+    color: #7a837b;
+    font-size: 13px;
+}
+.choose-role {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.role-section {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+.role-card {
+    flex: 1;
+    padding: 18px 10px;
+    border: 2px solid #e6e9e5;
+    border-radius: 12px;
+    background-color: #fafbf9;
+    color: #26372d;
+    text-align: center;
+}
+.role-card:hover {
+    border-color: #d97736;
+}
+.role-card.active {
+    border-color: #d97736;
+    background-color: #fff4e9;
+}
+.role-icon {
+    font-size: 27px;
+}
+.role-card h3 {
+    font-size: 15px;
+    margin: 9px 0 6px;
+}
+.role-card p {
+    font-size: 10px;
+    color: #818981;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+.input-group input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #dfe4df;
+    border-radius: 9px;
+    background-color: #fafbf9;
+    font-family: inherit;
+    font-size: 13px; 
+}
+.input-group input:focus {
+    border-color: #d97736;
+}
+.signin-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 9px;
+    background-color: #263d30;
+    color: white;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+}
+.signin-btn:hover {
+    background-color: #d97736;
+}
+.bottom-text {
+    text-align: center;
+    margin-top: 25px;
+    color: #909890;
+    font-size: 11px;
+}

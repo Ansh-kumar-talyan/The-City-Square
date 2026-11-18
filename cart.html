@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <div id="nav-placeholder">
+            <header class="navbar">
+      <div class="nav-brand">
+        <div class="logo-box">
+          <img
+            src="images/logo.png"
+            alt="Logo"
+            width="90"
+            height="90"
+            class="logo"
+          />
+        </div>
+        <div class="brand-text">
+          <span class="site-name">The City Square</span>
+          <span class="site-quote">community and commerce</span>
+        </div>
+      </div>
+      <div class="nav-address nav-box">
+        <img
+          src="images/address.png"
+          alt="Location"
+          width="18"
+          height="18"
+          class="address-icon"
+        />
+        <div class="address-text">
+          <span class="location">Select your address</span>
+        </div>
+      </div>
+      <div class="nav-search">
+        <input type="text" placeholder="Search..." />
+      </div>
+      <div class="nav-actions">
+        <a href="/cart" class="nav-cart nav-box">🛒 Cart</a>
+        <div class="auth-buttons">
+          <a href="/login" class="btn-login nav-box">Log In</a>
+          <a href="/signin" class="btn-signin nav-box">Sign In</a>
+        </div>
+      </div>
+    </header>
+    <div class="blank-space"></div>
+    </div>
+    </div>
+    <main class="page-container">
+        <section class="shopping-cart">
+            <div class="cart">
+                <h2>Your Shopping Cart</h2>
+                <p id="sure">Make sure everything looks right before checkout.</p>
+            </div>
+            <div class="item">
+                <div class="Watch-background">
+                    <img class="product-image" src="watch.webp" alt="Dragon Silver Watch">
+                </div>
+                <div class="item-name">
+                    <p class="brand-name">Lucky Harvey</p>
+                    <h4 class="product-name">DRAGON SILVER</h4>
+                    <div class="item-actions">
+                        <div class="removing">
+                            <button class="quantity-button">+</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-button">-</button>
+                        </div>
+                        <button class="remove-button">
+                            <img src="remove-button.png" alt="Remove">
+                            <span>Remove Item</span>
+                        </button>
+                    </div>
+                    <p class="Price">€1.600,00</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="Watch-background">
+                    <img class="product-image" src="Pen.png" alt="Montblanc Starwalker Pen">
+                </div>
+                <div class="item-name">
+                    <p class="brand-name">Montblanc</p>
+                    <h4 class="product-name">Montblanc Starwalker Pen</h4>
+                    <div class="item-actions">
+                        <div class="removing">
+                            <button class="quantity-button">+</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-button">-</button>
+                        </div>
+                        <button class="remove-button">
+                            <img src="remove-button.png" alt="Remove">
+                            <span>Remove Item</span>
+                        </button>
+                    </div>
+                    <p class="Price">₹49,200</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="Watch-background">
+                    <img class="product-image" src="shoes.avif" alt="Louis Vuitton LV Trainer Sneaker">
+                </div>
+                <div class="item-name">
+                    <p class="brand-name">LOUIS VUITTON</p>
+                    <h4 class="product-name">LV Trainer Sneaker</h4>
+                    <div class="item-actions">
+                        <div class="removing">
+                            <button class="quantity-button">+</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-button">-</button>
+                        </div>
+
+                        <button class="remove-button">
+                            <img src="remove-button.png" alt="Remove">
+                            <span>Remove Item</span>
+                        </button>
+                    </div>
+                    <p class="Price">₹1,44,000.00</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="Watch-background">
+                    <img class="product-image" src="coat.png" alt="Polo Ralph Lauren Coat">
+                </div>
+                <div class="item-name">
+                    <p class="brand-name">Polo Ralph Lauren</p>
+                    <h4 class="product-name">The Bellcrest Walking Coat</h4>
+                    <div class="item-actions">
+                        <div class="removing">
+                            <button class="quantity-button">+</button>
+                            <span class="quantity">1</span>
+                            <button class="quantity-button">-</button>
+                        </div>
+                        <button class="remove-button">
+                            <img src="remove-button.png" alt="Remove">
+                            <span>Remove Item</span>
+                        </button>
+                    </div>
+                    <p class="Price">₹94,000.00</p>
+                </div>
+            </div>
+            <a href="index.html" class="continue-shopping">← Continue Shopping</a>
+        </section>
+        <aside class="Bills">
+            <h3 class="TotalSummary">Order Summary</h3>
+            <div class="summary-details">
+                <div class="summary-labels">
+                    <p>Subtotal</p>
+                    <p>Shipping Cost</p>
+                    <p>Tax</p>
+                    <p>Coupon (DUO10)</p>
+                </div>
+                <div class="Money">
+                    <p>₹4,51,564.00</p>
+                    <p>Free</p>
+                    <p>₹9,000</p>
+                    <p>-₹12,000</p>
+                </div>
+            </div>
+            <div class="summary-total">
+                <span>Total</span>
+                <span>₹4,48,564</span>
+            </div>
+            <button class="checkout-button">Proceed to Checkout</button>
+            <p class="secure-message">Secure checkout · Easy returns</p>
+        </aside>
+    </main>
+    <footer class="site-footer">
+    <div class="footer-newsletter">
+        <div class="newsletter-text">
+            <span class="footer-tagline">THE CITY SQUARE COMMUNITY</span>
+            <h2>Good things are always around the corner.</h2>
+            <p>Get updates on new arrivals, exclusive offers and more.</p>
+        </div>
+        <form class="newsletter-form">
+            <input class="newsletter-form-input" type="email" placeholder="Enter your email address">
+            <button class="newsletter-form-button" type="button">Subscribe ↗</button>
+        </form>
+    </div>
+    <div class="footer-main">
+        <div class="footer-brand">
+            <div class="brand-heading">
+                <img src="logo.jpeg" alt="The City Square Logo">
+                <h2>The City Square</h2>
+            </div>
+            <p class="brand-description">
+                Discover something special, every day. Your marketplace for fashion, lifestyleand everything in between.
+            </p>
+            <div class="footer-socials">
+                <a href="#" aria-label="Instagram">
+                    <img src="images.jpeg" alt="Instagram">
+                </a>
+                <a href="#" aria-label="Facebook">
+                    <img src="facebook.png" alt="Facebook">
+                </a>
+                <a href="#" aria-label="Twitter">
+                    <img src="twitter.png" alt="Twitter">
+                </a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3>SHOP</h3>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Accessories</a>
+            <a href="#">Footwear</a>
+            <a href="#">New Arrivals</a>
+        </div>
+        <div class="footer-column">
+            <h3>NEED HELP?</h3>
+            <a href="#">Contact Us</a>
+            <a href="#">Track Your Order</a>
+            <a href="#">Shipping Information</a>
+            <a href="#">Returns & Refunds</a>
+            <a href="#">FAQs</a>
+        </div>
+        <div class="footer-column">
+            <h3>THE COMPANY</h3>
+            <a href="#">About Us</a>
+            <a href="#">Our Story</a>
+            <a href="#">Careers</a>
+            <a href="#">Become a Seller</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 The City Square. All rights reserved.</p>
+        <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Cookie Policy</a>
+        </div>
+        <p class="made-with">Made for the love of shopping.</p>
+    </div>
+</footer>
+</body>
+</html>

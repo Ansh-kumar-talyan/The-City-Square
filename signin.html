@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign In | The City Square</title>
+
+    <link rel="stylesheet" href="signin.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <!-- Montserrat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  
+
+    <!-- Sign In Container -->
+
+    <div class="signin-container">
+
+        <div class="welcome">
+            <p class="tag">WELCOME TO THE CITY SQUARE</p>
+
+            <h1>Welcome Back!</h1>
+
+            <p class="subtitle">
+                Sign in to explore your city marketplace.
+            </p>
+        </div>
+
+
+        <!-- Customer and Vendor Selection -->
+
+        <h3 class="choose-role">Continue as</h3>
+
+        <div class="role-section">
+
+            <button type="button" class="role-card active" id="customer">
+
+                <div class="role-icon"></div>
+
+                <h3>Customer</h3>
+
+                <p>Explore and shop products.</p>
+
+            </button>
+
+
+            <button type="button" class="role-card" id="vendor">
+
+                <div class="role-icon"></div>
+
+                <h3>Vendor</h3>
+
+                <p>Manage your store and products.</p>
+
+            </button>
+
+        </div>
+
+
+        <!-- Login Form -->
+
+        <form id="signin-form">
+
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your name" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="signin-btn">
+                Sign In →
+            </button>
+
+        </form>
+
+
+        <p class="bottom-text">
+            Bringing your city closer, one click at a time.
+        </p>
+
+    </div>
+
+
+    <script src="signin.js"></script>
+
+</body>
+</html>

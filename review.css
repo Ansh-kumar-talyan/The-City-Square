@@ -1,0 +1,84 @@
+.testimonials-section {
+  padding: 50px 0 60px;
+  background-color: #F8F5F0; 
+}
+.testimonials-container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.testimonials-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.testimonials-header h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #2C2621;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+}
+.icon-accent {
+  color: #8C7355; 
+  margin-right: 8px;
+}
+.testimonials-header p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.05rem;
+  color: #746C64;
+}
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+.testimonial-card {
+  background-color: #FAF8F5;
+  border: 1.5px solid #E2DCD0;
+  border-radius: 18px; 
+  padding: 24px;
+  box-shadow: 0 2px 6px rgba(44, 38, 33, 0.04);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(44, 38, 33, 0.07);
+  border-color: #8C7355; 
+}
+.testimonial-card .stars {
+  color: #8C7355; 
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+.testimonial-quote {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+  color: #5C544D;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-style: italic;
+  flex-grow: 1; 
+}
+.patron-name {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #2C2621;
+}
+.patron-details {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  color: #746C64;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-top: 4px;
+  font-weight: 600;
+}

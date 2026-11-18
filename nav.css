@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; 
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: #F8F5F0; 
+  border-bottom: 1px solid #E2DCD0;
+  gap: 30px;
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo-box {
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px; 
+  overflow: hidden; 
+}
+.logo-box img {
+  border-radius: 20px; 
+}
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.site-name {
+  font-family: "Playfair Display", serif; 
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #2C2621;
+  line-height: 1;
+  letter-spacing: -0.5px;
+}
+.site-quote {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  color: #746C64;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 8px; 
+  font-weight: 500;
+}
+.nav-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border: 1px solid #2C2621; 
+  border-radius: 40px;
+  text-decoration: none;
+  color: #2C2621;
+  font-weight: 500;
+  font-size: 0.95rem;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+.nav-box:hover {
+  background-color: #2C2621;
+  color: #F8F5F0;
+}
+.address-text {
+  display: flex;
+  flex-direction: column;
+}
+.address-icon {
+  object-fit: contain;
+  border-radius: 50%;
+}
+.nav-search {
+  flex-grow: 1;
+  max-width: 400px;
+  margin: 0 auto; 
+}
+.nav-search input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: 1px solid #2C2621;
+  border-radius: 40px;
+  outline: none;
+  background-color: #FAF8F5;
+}
+.nav-search input:focus {
+  box-shadow: 0 0 5px rgba(44, 38, 33, 0.2); 
+}
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.auth-buttons {
+  display: flex;
+  gap: 12px;
+}
